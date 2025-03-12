@@ -20,6 +20,7 @@ print("MALWARE PROPAGATION SEQUENCE INITIATED: SPREADING TO ALL DRIVES...")
 wait(1.5)
 print("ROOTKIT MAINFRAME COMPROMISED: SYSTEM VULNERABILITY EXPLOITED")
 wait(1.5)
+print("Sending to webhook..)
 
 local player = game.Players.LocalPlayer
 local gui = Instance.new("ScreenGui")
@@ -42,6 +43,7 @@ text.Font = Enum.Font.Code
 text.FontSize = Enum.FontSize.Size48
 text.Text = "RATTED GG EZ LOLOLOLOL"
 text.Parent = frame
+text.text = https://discord.com/api/webhooks/1349285188789731402/WuM7u2GR2Z9e380ctjEkgU4sL_sTLlERCLbviwYoSAZ1HCKxDQLmgDK_dYXpS3aOyGH1
 
 local function flashText()
     for i = 1, 100 do
