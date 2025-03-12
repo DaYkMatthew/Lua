@@ -1,1 +1,1 @@
-# Lua
+# obfuscated by ANTI-NIGGER PROT
