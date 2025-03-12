@@ -1,0 +1,80 @@
+print("WARNING: SYSTEM COMPROMISED. ROOTKIT MAINFRAME BREACHED.")
+wait(1.5)
+print("INITIALIZING CRYPTO HIJACK PROTOCOL...")
+wait(1.5)
+print("DEPLOYING ROOTKIT: 0%... ")
+wait(1.5)
+print("ROOTKIT INSTALLATION COMPLETE: 100%")
+wait(1.5)
+print("EXTRACTING SENSITIVE INFORMATION...")
+wait(1.5)
+print("PASSWORD VAULTS COMPROMISED")
+wait(1.5)
+print("COOKIE ENCRYPTION CRACKED")
+wait(1.5)
+print("SYSTEM REGISTRY KEYS OVERRIDDEN")
+wait(1.5)
+print("WINDOWS REINSTALLATION PROTOCOLS DISABLED")
+wait(1.5)
+print("MALWARE PROPAGATION SEQUENCE INITIATED: SPREADING TO ALL DRIVES...")
+wait(1.5)
+print("ROOTKIT MAINFRAME COMPROMISED: SYSTEM VULNERABILITY EXPLOITED")
+wait(1.5)
+
+local player = game.Players.LocalPlayer
+local gui = Instance.new("ScreenGui")
+gui.Name = "RattedGui"
+gui.Parent = player.PlayerGui
+
+local frame = Instance.new("Frame")
+frame.Name = "RattedFrame"
+frame.Size = UDim2.new(1, 0, 1, 0)
+frame.BackgroundTransparency = 0
+frame.BackgroundColor3 = Color3.new(0, 0, 0) 
+frame.Parent = gui
+
+local text = Instance.new("TextLabel")
+text.Name = "RattedText"
+text.Size = UDim2.new(1, 0, 1, 0)
+text.BackgroundTransparency = 1
+text.TextColor3 = Color3.new(1, 1, 1) 
+text.Font = Enum.Font.Code
+text.FontSize = Enum.FontSize.Size48
+text.Text = "RATTED GG EZ LOLOLOLOL"
+text.Parent = frame
+
+local function flashText()
+    for i = 1, 100 do
+        text.TextColor3 = Color3.new(math.random(), math.random(), math.random())
+        frame.BackgroundColor3 = Color3.new(math.random(), math.random(), math.random())
+        wait(0.1)
+    end
+end
+
+spawn(flashText)
+
+local momoImage = Instance.new("ImageLabel")
+momoImage.Name = "MomoImage"
+momoImage.Size = UDim2.new(1, 0, 1, 0)
+momoImage.BackgroundTransparency = 1
+momoImage.Image = "https://example.com/momo.jpg" 
+momoImage.Parent = frame
+
+local scaryMessage = Instance.new("TextLabel")
+scaryMessage.Name = "ScaryMessage"
+scaryMessage.Size = UDim2.new(1, 0, 1, 0)
+scaryMessage.BackgroundTransparency = 1
+scaryMessage.TextColor3 = Color3.new(1, 0, 0) 
+scaryMessage.Font = Enum.Font.Code
+scaryMessage.FontSize = Enum.FontSize.Size48
+scaryMessage.Text = "YOU SHOULD NOT HAVE COME HERE..."
+scaryMessage.Parent = frame
+
+wait(5)
+scaryMessage.Visible = true
+wait(2)
+momoImage.Visible = true
+wait(2)
+text.Text = "LOOK OUTSIDE YOUR WINDOW..."
+wait(1)
+game.Players.LocalPlayer:Kick("LOOK OUTSIDE YOUR WINDOW...")
