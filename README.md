@@ -1,1 +1,1 @@
-# obfuscated by ANTI-NIGGER PROT
+# im cooked
